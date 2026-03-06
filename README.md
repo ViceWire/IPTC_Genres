@@ -6,8 +6,19 @@
 CSV and Excel of the IPTC NewsCodes Genre vocabulary, generated from IPTC's Controlled Vocabulary (CV) server located at http://cv.iptc.org/newscodes/JSON-LD.
 
 ## Downloads
-- [Download `iptc_genre.csv`](https://github.com/ViceWire/IPTC_Genres/blob/main/data/iptc_genre.csv)
-- [Download `iptc_genre.xlsx`](https://github.com/ViceWire/IPTC_Genres/blob/main/data/iptc_genre.xlsx)
+
+Direct links:
+- [Download `iptc_genre.csv`](https://github.com/ViceWire/IPTC_Genres/raw/main/data/iptc_genre.csv)
+- [Download `iptc_genre.xlsx`](https://github.com/ViceWire/IPTC_Genres/raw/main/data/iptc_genre.xlsx)
+
+Button links:
+
+<a href="https://github.com/ViceWire/IPTC_Genres/raw/main/data/iptc_genre.csv" download="iptc_genre.csv">
+  <img src="https://img.shields.io/badge/Download-CSV-2ea44f?style=for-the-badge" alt="Download CSV" />
+</a>
+<a href="https://github.com/ViceWire/IPTC_Genres/raw/main/data/iptc_genre.xlsx" download="iptc_genre.xlsx">
+  <img src="https://img.shields.io/badge/Download-XLSX-1f6feb?style=for-the-badge" alt="Download XLSX" />
+</a>
 
 ## Why this exists
 We wanted to review IPTC’s Genre vocabulary quickly in a spreadsheet, but IPTC publishes it as RDF/XML, RDF/Turtle, or JSON-LD.
