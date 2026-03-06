@@ -5,6 +5,10 @@
 ## Overview
 CSV and Excel of the IPTC NewsCodes Genre vocabulary, generated from IPTC's Controlled Vocabulary (CV) server located at http://cv.iptc.org/newscodes/JSON-LD.
 
+## Downloads
+- [Download `iptc_genre.csv`](https://github.com/ViceWire/IPTC_Genres/blob/main/data/iptc_genre.csv)
+- [Download `iptc_genre.xlsx`](https://github.com/ViceWire/IPTC_Genres/blob/main/data/iptc_genre.xlsx)
+
 ## Why this exists
 We wanted to review IPTC’s Genre vocabulary quickly in a spreadsheet, but IPTC publishes it as RDF/XML, RDF/Turtle, or JSON-LD.
 This repo provides CSV/XLSX exports (and a small converter script) so you can inspect, filter, and integrate the vocabulary without writing your own parser.
@@ -12,6 +16,9 @@ This repo provides CSV/XLSX exports (and a small converter script) so you can in
 ## Source of truth
 - Authoritative vocabulary: https://cv.iptc.org/newscodes/genre/
 - Machine-readable endpoint used by the script: `https://cv.iptc.org/newscodes/genre/?format=jsonld`
+- **cptall-en-GB.json:** A raw snapshot downloaded from IPTC’s
+  CV server on the recorded date, kept for reproducibility so anyone can regenerate/verify the CSV/XLSX against the exact source
+  payload we parsed.
 - This repository's CSV/XLSX files are derived convenience formats. The authoritative source remains IPTC's CV server.
 
 ## License / Attribution
